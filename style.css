@@ -1,0 +1,193 @@
+*{
+    font-family:"Ysabeau SC", sans-serif;
+}
+
+body{
+    background-image: url("coperta4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100vh;
+    height:100vh;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    
+}
+
+/* .navbar {
+    padding-top: 80px;
+  } */
+  
+  .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    min-width: 88px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    position: relative;
+    color: #f4f4f4;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+  }
+  
+  .navbar-brand {
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #f4f4f4;
+    padding: 0 16px;
+  }
+
+  h1{
+    text-transform: uppercase;
+   
+  }
+
+  .container{
+    margin-top: 10rem;
+  }
+
+  .navbar2{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    margin-left: 50rem;
+  }
+
+  .list{
+    margin-right: 4rem;
+    margin-top:1rem;
+    cursor:pointer;
+  }
+
+  .about{
+    width:100vw;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    padding-top: 10rem;
+  }
+
+ .about img{
+    position:relative;
+    width:30%;
+    height:30%;
+    margin-top:30rem;
+    margin-left:5rem;
+ }
+
+ .about h2{
+    position:absolute;
+    /* margin-left:65%;
+    margin-top:2rem; */
+    top: 30%;
+  left: 70%;
+  transform: translateX(-50%);
+  margin-top: 10rem; 
+ }
+
+ .underline{
+    background-color:black;
+    height:.2rem;
+    width:10rem;
+    position:absolute;
+    top: 45%;
+  left: 70%;
+  transform: translateX(-50%);
+ }
+
+ .about p{
+    position:absolute;
+    top: 55%;
+  left: 50%;
+  width:40%;
+ }
+
+ .gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-top:10rem;
+    width:100vw;
+}
+
+.gallery img{
+    width:100%;
+    height:auto;
+    margin-bottom:5px;
+    filter: grayscale(100%);
+}
+
+.gallery img:hover{
+    filter:none;
+    
+}
+
+.gallery h2{
+    margin-top:0;
+}
+
+.galerie h2{
+    margin-top:5rem;
+    margin-left:95%;
+}
+
+.underline2{
+    background-color:black;
+    height:.2rem;
+    width:12rem;
+    /* position:absolute;
+    top: 45%;
+  left: 70%;
+  transform: translateX(-50%); */
+  left:45%;
+  position:absolute;
+ }
+
+ .footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width:100vw;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  .footer .social-icons i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .footer .copyright {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
